@@ -1,0 +1,10 @@
+endpoint: https://eu1.prisma.sh/demo/delete-me-csb-2/dev
+datamodel: datamodel.prisma
+seed:
+  run: node seed.js
+hooks:
+  post-deploy:
+    - prisma generate
+generate:
+  - generator: javascript-client
+    output: ../generated/prisma-client/

@@ -1,0 +1,21 @@
+{
+  "name": "apollo-server-prisma",
+  "description": "",
+  "dependencies": {
+    "apollo-server": "2.1.0",
+    "graphql": "14.0.2",
+    "prisma-client-lib": "0.2.58"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "prisma": "cd prisma && prisma",
+    "start": "nodemon index.js localhost 4000"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@types/graphql": "14.0.1",
+    "nodemon": "1.18.4",
+    "prisma": "1.17.1"
+  }
+}
